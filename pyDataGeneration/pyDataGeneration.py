@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 
 
+
 # 定义一个路由，当访问根路径时触发该函数
 @app.route('/get_json', methods=['GET'])
 def get_json_data():
