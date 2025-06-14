@@ -1,6 +1,8 @@
 import json
 import random
 import logging
+import time
+import datetime
 # from requests import Response
 from flask import Flask, jsonify , request , Response
 
@@ -63,7 +65,11 @@ def get_json_data():
                 "address": f"地址{i}",
                 # 城市制造数据倾斜场景
                 "city": "北京" if i % 9 == 0 else "上海" if i % 9 == 1 else "上海" if i % 9 == 2 else "上海" if i % 9 == 3 else "上海" if i % 9 == 4 else "上海" if i % 9 == 5 else "上海" if i % 9 == 6 else "上海" if i % 9 == 7 else "上海" if i % 8 == 0 else "南京",
-                "score": random.randint(0, 100)
+                "yw_score": random.randint(0, 100),
+                "sx_score": random.randint(0, 100),
+                "yy_score": random.randint(0, 100),
+                "time": datetime.datetime.now() - datetime.timedelta(days=random.randint(0, 1000)),
+                
             } for i in range(1, count + 1)
         ]
 
