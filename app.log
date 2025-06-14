@@ -7,3 +7,13 @@
 2025-06-14 11:35:39,096 INFO: [33mPress CTRL+C to quit[0m
 2025-06-14 11:35:46,011 INFO: 127.0.0.1 - - [14/Jun/2025 11:35:46] "GET /stut_info HTTP/1.1" 200 -
 2025-06-14 11:35:46,155 INFO: 127.0.0.1 - - [14/Jun/2025 11:35:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-14 16:48:22,050 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:1233
+2025-06-14 16:48:22,051 INFO: [33mPress CTRL+C to quit[0m
+2025-06-14 16:50:41,145 INFO: 127.0.0.1 - - [14/Jun/2025 16:50:41] "GET /stut_info HTTP/1.1" 200 -
+2025-06-14 16:58:05,619 INFO: 127.0.0.1 - - [14/Jun/2025 16:58:05] "GET /stut_info HTTP/1.1" 200 -
+2025-06-14 17:02:37,086 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:1233
+2025-06-14 17:02:37,086 INFO: [33mPress CTRL+C to quit[0m
+2025-06-14 17:02:49,043 INFO: 127.0.0.1 - - [14/Jun/2025 17:02:49] "GET /stut_info HTTP/1.1" 200 -
+2025-06-14 17:04:26,594 INFO: 127.0.0.1 - - [14/Jun/2025 17:04:26] "GET /area_info HTTP/1.1" 200 -

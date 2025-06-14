@@ -43,7 +43,7 @@ def area_info():
                 "num": random.randint(0, 10)
             } for i in range(1, 5)
         ]
-        return jsonify({"code": 200, "data": data})
+        return jsonify(data)
     except Exception as e:
         app.logger.error(f"Error in /area_info: {str(e)}")
         return jsonify({"code": 500, "message": "Internal Server Error"}), 500
