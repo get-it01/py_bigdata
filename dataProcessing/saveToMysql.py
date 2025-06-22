@@ -39,9 +39,10 @@ def connect_to_mysql_and_execute(dataFrame,table_name = 'test' , sql = None):
             # result = connection.execute("SELECT * FROM your_table")
             # for row in result:
             #     print(row)
-
+        return True
     except Exception as e:
         print("连接或操作数据库时发生错误: ", e)
+        return False
     finally:
         engine.dispose()    
 
@@ -50,7 +51,7 @@ def connect_to_mysql_and_execute(dataFrame,table_name = 'test' , sql = None):
 def pd_to_db(engine,df,table_name):
 
         # 使用 pandas 的 to_sql 方法写入数据库
-    df.to_sql(name=table_name, con=engine, if_exists='fail', index=True)
+    df.to_sql(name=table_name, con=engine, if_exists='append', index=True)
     print(f"数据已成功写入表 {table_name}")
 
 

@@ -18,12 +18,13 @@ def save_df_to_parquet(df: pd.DataFrame, file_path: str = 'output.parquet'):
         table = pa.Table.from_pandas(df)
 
         # 写入 Parquet 文件
-        pq.write_table(table, file_path)
+        pq.write_table(table, file_path,compression='snappy')
 
         print(f"数据已成功保存至 {file_path}")
-    
+        return True
     except Exception as e:
         print(f"写入 Parquet 文件时发生错误: {e}")
+        return False
 
 # 测试函数
 if __name__ == '__main__':

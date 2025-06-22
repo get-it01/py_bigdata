@@ -9,16 +9,50 @@ from flask import Flask, jsonify , request , Response
 # 创建 Flask 应用实例
 app = Flask(__name__)
 
+
+import sys
+import logging
+import io
+
+# 自定义 StringIO 类，用于将 stdout/stderr 写入日志
+class StreamToLogger(io.StringIO):
+    def __init__(self, logger, level=logging.INFO):
+        super().__init__()
+        self.logger = logger
+        self.level = level
+
+    def write(self, buf):
+        if buf.strip():
+            self.logger.log(self.level, buf.strip())
+
+    def flush(self):
+        pass  # 忽略 flush 方法
+
+
 def setup_logger():
-    # 设置日志输出到文件，编码为 UTF-8，追加模式
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format='%(asctime)s %(levelname)s: %(message)s',
-        handlers=[
-            logging.StreamHandler(),  # 控制台输出
-            logging.FileHandler('app.log', encoding='utf-8')  # 文件输出
-        ]
-    )
+    # 创建 logger
+    logger = logging.getLogger()
+    logger.setLevel(logging.DEBUG)
+
+    # 创建 formatter
+    formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s')
+
+    # 创建 handlers
+    handlers = [
+        logging.StreamHandler(),  # 控制台输出
+        logging.FileHandler('app.log', encoding='utf-8')  # 文件输出
+    ]
+
+    for handler in handlers:
+        handler.setFormatter(formatter)
+        logger.addHandler(handler)
+
+    # 重定向 stdout 和 stderr 到 logger
+    sys.stdout = StreamToLogger(logger, logging.INFO)
+    sys.stderr = StreamToLogger(logger, logging.ERROR)
+
+
+
 setup_logger()
 # 定义城市映射表
 city_mapping = {
@@ -58,13 +92,13 @@ def area_info():
 
 # 定义一个路由，当访问根路径时触发该函数,并需要传入参数
 @app.route('/user_info', methods=['GET'])
-def get_json_data():
+def user_info():
     try:
         # 获取查询参数并限制最大值
         count = request.args.get('count', default=1, type=int)
         count = min(count, 100)  # 防止过大请求
         # 接口可以访问count次不同的数据, 单次2000条
-        start_count = 2000*(count-1)
+        start_count = 2000*(count+1)
         end_count = start_count + 2000
         data = [
             {
@@ -97,13 +131,13 @@ def get_json_data():
     
     # 定义一个路由，当访问根路径时触发该函数,并需要传入参数
 @app.route('/sign_info', methods=['GET'])
-def get_json_data():
+def sign_info():
     try:
         # 获取查询参数并限制最大值
         count = request.args.get('count', default=1, type=int)
         count = min(count, 100)  # 防止过大请求
         # 接口可以访问count次不同的数据, 单次2000条
-        start_count = 2000*(count-1)
+        start_count = 2000*(count+1)
         end_count = start_count + 2000
         data = [
             {

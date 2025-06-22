@@ -17,3 +17,1279 @@
 2025-06-14 17:02:37,086 INFO: [33mPress CTRL+C to quit[0m
 2025-06-14 17:02:49,043 INFO: 127.0.0.1 - - [14/Jun/2025 17:02:49] "GET /stut_info HTTP/1.1" 200 -
 2025-06-14 17:04:26,594 INFO: 127.0.0.1 - - [14/Jun/2025 17:04:26] "GET /area_info HTTP/1.1" 200 -
+2025-06-22 22:12:28,904 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:1233
+2025-06-22 22:12:28,905 INFO: [33mPress CTRL+C to quit[0m
+2025-06-22 22:12:49,891 INFO: 127.0.0.1 - - [22/Jun/2025 22:12:49] "[33mGET /stut_info HTTP/1.1[0m" 404 -
+2025-06-22 22:12:49,977 INFO: 127.0.0.1 - - [22/Jun/2025 22:12:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-22 22:12:56,916 INFO: 127.0.0.1 - - [22/Jun/2025 22:12:56] "GET /sign_info HTTP/1.1" 200 -
+2025-06-22 22:13:06,105 INFO: 127.0.0.1 - - [22/Jun/2025 22:13:06] "GET /user_info HTTP/1.1" 200 -
+2025-06-22 22:13:12,102 INFO: 127.0.0.1 - - [22/Jun/2025 22:13:12] "GET /area_info HTTP/1.1" 200 -
+2025-06-22 23:09:51,352 INFO: Flask 已启动，现在可以继续执行其他任务...
+2025-06-22 23:09:51,352 INFO: Flask 已启动，现在可以继续执行其他任务...
+2025-06-22 23:09:51,354 INFO: 当前循环次数：0
+2025-06-22 23:09:51,354 INFO: 当前循环次数：0
+2025-06-22 23:09:51,355 INFO: b"* Serving Flask app 'pyDataGeneration.pyDataGeneration'"
+2025-06-22 23:09:51,355 INFO: b"* Serving Flask app 'pyDataGeneration.pyDataGeneration'"
+2025-06-22 23:09:51,355 INFO: b'* Debug mode: off'
+2025-06-22 23:09:51,355 INFO: b'* Debug mode: off'
+2025-06-22 23:09:51,361 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:51,361 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:51,378 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1233
+ * Running on http://192.168.1.10:1233
+2025-06-22 23:09:51,378 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1233
+ * Running on http://192.168.1.10:1233
+2025-06-22 23:09:51,379 INFO: [33mPress CTRL+C to quit[0m
+2025-06-22 23:09:51,379 INFO: [33mPress CTRL+C to quit[0m
+2025-06-22 23:09:51,905 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:51] "GET /user_info?count=0 HTTP/1.1" 200 -
+2025-06-22 23:09:51,905 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:51] "GET /user_info?count=0 HTTP/1.1" 200 -
+2025-06-22 23:09:51,906 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=0 HTTP/1.1" 200 443500
+2025-06-22 23:09:51,906 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=0 HTTP/1.1" 200 443500
+2025-06-22 23:09:51,934 INFO: 数据基本信息：
+2025-06-22 23:09:51,934 INFO: 数据基本信息：
+2025-06-22 23:09:51,983 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:51,983 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:51,988 INFO: 数值列统计信息：
+2025-06-22 23:09:51,988 INFO: 数值列统计信息：
+2025-06-22 23:09:52,016 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.9795	3000.5	552.486	50.936	5436.9225
+std	5.431374564954291	577.4945887192364	260.2326023150324	29.08932791418959	2609.2248455510826
+min	7.0	2001.0	100.0	0.0	1010.0
+25%	11.0	2500.75	325.0	27.0	3276.25
+50%	16.0	3000.5	557.0	51.0	5456.0
+75%	21.0	3500.25	780.0	77.0	7693.75
+max	25.0	4000.0	1000.0	100.0	9999.0
+2025-06-22 23:09:52,016 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.9795	3000.5	552.486	50.936	5436.9225
+std	5.431374564954291	577.4945887192364	260.2326023150324	29.08932791418959	2609.2248455510826
+min	7.0	2001.0	100.0	0.0	1010.0
+25%	11.0	2500.75	325.0	27.0	3276.25
+50%	16.0	3000.5	557.0	51.0	5456.0
+75%	21.0	3500.25	780.0	77.0	7693.75
+max	25.0	4000.0	1000.0	100.0	9999.0
+2025-06-22 23:09:52,133 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info0.parquet
+2025-06-22 23:09:52,133 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info0.parquet
+2025-06-22 23:09:52,601 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:52,601 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:52,605 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:52,605 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:52,633 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:52] "GET /sign_info?count=0 HTTP/1.1" 200 -
+2025-06-22 23:09:52,633 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:52] "GET /sign_info?count=0 HTTP/1.1" 200 -
+2025-06-22 23:09:52,635 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=0 HTTP/1.1" 200 166002
+2025-06-22 23:09:52,635 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=0 HTTP/1.1" 200 166002
+2025-06-22 23:09:52,644 INFO: 数据基本信息：
+2025-06-22 23:09:52,644 INFO: 数据基本信息：
+2025-06-22 23:09:52,665 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:52,665 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:52,671 INFO: 数值列统计信息：
+2025-06-22 23:09:52,671 INFO: 数值列统计信息：
+2025-06-22 23:09:52,679 INFO: id
+count	2000.0
+mean	3000.5
+std	577.4945887192364
+min	2001.0
+25%	2500.75
+50%	3000.5
+75%	3500.25
+max	4000.0
+2025-06-22 23:09:52,679 INFO: id
+count	2000.0
+mean	3000.5
+std	577.4945887192364
+min	2001.0
+25%	2500.75
+50%	3000.5
+75%	3500.25
+max	4000.0
+2025-06-22 23:09:52,692 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info0.parquet
+2025-06-22 23:09:52,692 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info0.parquet
+2025-06-22 23:09:52,810 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:52,810 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:52,811 INFO: 当前循环次数：1
+2025-06-22 23:09:52,811 INFO: 当前循环次数：1
+2025-06-22 23:09:52,813 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:52,813 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:52,870 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:52] "GET /user_info?count=1 HTTP/1.1" 200 -
+2025-06-22 23:09:52,870 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:52] "GET /user_info?count=1 HTTP/1.1" 200 -
+2025-06-22 23:09:52,872 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=1 HTTP/1.1" 200 443530
+2025-06-22 23:09:52,872 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=1 HTTP/1.1" 200 443530
+2025-06-22 23:09:52,894 INFO: 数据基本信息：
+2025-06-22 23:09:52,894 INFO: 数据基本信息：
+2025-06-22 23:09:52,914 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:52,914 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:52,918 INFO: 数值列统计信息：
+2025-06-22 23:09:52,918 INFO: 数值列统计信息：
+2025-06-22 23:09:52,946 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.1575	5000.5	550.324	50.151	5556.443
+std	5.471166290681553	577.4945887192364	261.9300339696608	28.78901878844433	2614.5184432503142
+min	7.0	4001.0	100.0	0.0	1000.0
+25%	11.0	4500.75	313.0	25.0	3270.75
+50%	16.0	5000.5	550.0	50.0	5618.0
+75%	21.0	5500.25	772.25	75.0	7796.0
+max	25.0	6000.0	1000.0	100.0	9995.0
+2025-06-22 23:09:52,946 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.1575	5000.5	550.324	50.151	5556.443
+std	5.471166290681553	577.4945887192364	261.9300339696608	28.78901878844433	2614.5184432503142
+min	7.0	4001.0	100.0	0.0	1000.0
+25%	11.0	4500.75	313.0	25.0	3270.75
+50%	16.0	5000.5	550.0	50.0	5618.0
+75%	21.0	5500.25	772.25	75.0	7796.0
+max	25.0	6000.0	1000.0	100.0	9995.0
+2025-06-22 23:09:52,962 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info1.parquet
+2025-06-22 23:09:52,962 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info1.parquet
+2025-06-22 23:09:53,088 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:53,088 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:53,090 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,090 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,110 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /sign_info?count=1 HTTP/1.1" 200 -
+2025-06-22 23:09:53,110 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /sign_info?count=1 HTTP/1.1" 200 -
+2025-06-22 23:09:53,111 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=1 HTTP/1.1" 200 166002
+2025-06-22 23:09:53,111 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=1 HTTP/1.1" 200 166002
+2025-06-22 23:09:53,118 INFO: 数据基本信息：
+2025-06-22 23:09:53,118 INFO: 数据基本信息：
+2025-06-22 23:09:53,126 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:53,126 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:53,130 INFO: 数值列统计信息：
+2025-06-22 23:09:53,130 INFO: 数值列统计信息：
+2025-06-22 23:09:53,135 INFO: id
+count	2000.0
+mean	5000.5
+std	577.4945887192364
+min	4001.0
+25%	4500.75
+50%	5000.5
+75%	5500.25
+max	6000.0
+2025-06-22 23:09:53,135 INFO: id
+count	2000.0
+mean	5000.5
+std	577.4945887192364
+min	4001.0
+25%	4500.75
+50%	5000.5
+75%	5500.25
+max	6000.0
+2025-06-22 23:09:53,143 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info1.parquet
+2025-06-22 23:09:53,143 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info1.parquet
+2025-06-22 23:09:53,232 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:53,232 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:53,233 INFO: 当前循环次数：2
+2025-06-22 23:09:53,233 INFO: 当前循环次数：2
+2025-06-22 23:09:53,235 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,235 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,266 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /user_info?count=2 HTTP/1.1" 200 -
+2025-06-22 23:09:53,266 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /user_info?count=2 HTTP/1.1" 200 -
+2025-06-22 23:09:53,267 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=2 HTTP/1.1" 200 443539
+2025-06-22 23:09:53,267 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=2 HTTP/1.1" 200 443539
+2025-06-22 23:09:53,282 INFO: 数据基本信息：
+2025-06-22 23:09:53,282 INFO: 数据基本信息：
+2025-06-22 23:09:53,294 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:53,294 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:53,295 INFO: 数值列统计信息：
+2025-06-22 23:09:53,295 INFO: 数值列统计信息：
+2025-06-22 23:09:53,306 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.0395	7000.5	556.822	50.52	5508.3555
+std	5.329178156142836	577.4945887192364	258.7029375963104	29.643717293677824	2618.2484098128452
+min	7.0	6001.0	100.0	0.0	1003.0
+25%	11.75	6500.75	338.0	23.75	3221.75
+50%	16.0	7000.5	562.5	51.0	5502.5
+75%	20.0	7500.25	786.0	77.0	7783.5
+max	25.0	8000.0	1000.0	100.0	9995.0
+2025-06-22 23:09:53,306 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.0395	7000.5	556.822	50.52	5508.3555
+std	5.329178156142836	577.4945887192364	258.7029375963104	29.643717293677824	2618.2484098128452
+min	7.0	6001.0	100.0	0.0	1003.0
+25%	11.75	6500.75	338.0	23.75	3221.75
+50%	16.0	7000.5	562.5	51.0	5502.5
+75%	20.0	7500.25	786.0	77.0	7783.5
+max	25.0	8000.0	1000.0	100.0	9995.0
+2025-06-22 23:09:53,319 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info2.parquet
+2025-06-22 23:09:53,319 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info2.parquet
+2025-06-22 23:09:53,458 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:53,458 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:53,460 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,460 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,480 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /sign_info?count=2 HTTP/1.1" 200 -
+2025-06-22 23:09:53,480 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /sign_info?count=2 HTTP/1.1" 200 -
+2025-06-22 23:09:53,481 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=2 HTTP/1.1" 200 166002
+2025-06-22 23:09:53,481 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=2 HTTP/1.1" 200 166002
+2025-06-22 23:09:53,486 INFO: 数据基本信息：
+2025-06-22 23:09:53,486 INFO: 数据基本信息：
+2025-06-22 23:09:53,494 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:53,494 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:53,496 INFO: 数值列统计信息：
+2025-06-22 23:09:53,496 INFO: 数值列统计信息：
+2025-06-22 23:09:53,501 INFO: id
+count	2000.0
+mean	7000.5
+std	577.4945887192364
+min	6001.0
+25%	6500.75
+50%	7000.5
+75%	7500.25
+max	8000.0
+2025-06-22 23:09:53,501 INFO: id
+count	2000.0
+mean	7000.5
+std	577.4945887192364
+min	6001.0
+25%	6500.75
+50%	7000.5
+75%	7500.25
+max	8000.0
+2025-06-22 23:09:53,508 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info2.parquet
+2025-06-22 23:09:53,508 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info2.parquet
+2025-06-22 23:09:53,626 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:53,626 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:53,627 INFO: 当前循环次数：3
+2025-06-22 23:09:53,627 INFO: 当前循环次数：3
+2025-06-22 23:09:53,629 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,629 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,667 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /user_info?count=3 HTTP/1.1" 200 -
+2025-06-22 23:09:53,667 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /user_info?count=3 HTTP/1.1" 200 -
+2025-06-22 23:09:53,668 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=3 HTTP/1.1" 200 443518
+2025-06-22 23:09:53,668 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=3 HTTP/1.1" 200 443518
+2025-06-22 23:09:53,692 INFO: 数据基本信息：
+2025-06-22 23:09:53,692 INFO: 数据基本信息：
+2025-06-22 23:09:53,703 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:53,703 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:53,706 INFO: 数值列统计信息：
+2025-06-22 23:09:53,706 INFO: 数值列统计信息：
+2025-06-22 23:09:53,720 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.895	9000.5	555.011	51.192	5562.516
+std	5.444060423704762	577.4945887192364	260.3368654661886	29.3626330241185	2590.215884614341
+min	7.0	8001.0	100.0	0.0	1006.0
+25%	11.0	8500.75	326.0	25.0	3375.75
+50%	16.0	9000.5	554.0	51.0	5595.5
+75%	21.0	9500.25	782.0	78.0	7788.25
+max	25.0	10000.0	1000.0	100.0	10000.0
+2025-06-22 23:09:53,720 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.895	9000.5	555.011	51.192	5562.516
+std	5.444060423704762	577.4945887192364	260.3368654661886	29.3626330241185	2590.215884614341
+min	7.0	8001.0	100.0	0.0	1006.0
+25%	11.0	8500.75	326.0	25.0	3375.75
+50%	16.0	9000.5	554.0	51.0	5595.5
+75%	21.0	9500.25	782.0	78.0	7788.25
+max	25.0	10000.0	1000.0	100.0	10000.0
+2025-06-22 23:09:53,736 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info3.parquet
+2025-06-22 23:09:53,736 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info3.parquet
+2025-06-22 23:09:53,935 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:53,935 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:53,938 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,938 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:53,960 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /sign_info?count=3 HTTP/1.1" 200 -
+2025-06-22 23:09:53,960 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:53] "GET /sign_info?count=3 HTTP/1.1" 200 -
+2025-06-22 23:09:53,961 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=3 HTTP/1.1" 200 166003
+2025-06-22 23:09:53,961 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=3 HTTP/1.1" 200 166003
+2025-06-22 23:09:53,967 INFO: 数据基本信息：
+2025-06-22 23:09:53,967 INFO: 数据基本信息：
+2025-06-22 23:09:53,978 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:53,978 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:53,982 INFO: 数值列统计信息：
+2025-06-22 23:09:53,982 INFO: 数值列统计信息：
+2025-06-22 23:09:53,988 INFO: id
+count	2000.0
+mean	9000.5
+std	577.4945887192364
+min	8001.0
+25%	8500.75
+50%	9000.5
+75%	9500.25
+max	10000.0
+2025-06-22 23:09:53,988 INFO: id
+count	2000.0
+mean	9000.5
+std	577.4945887192364
+min	8001.0
+25%	8500.75
+50%	9000.5
+75%	9500.25
+max	10000.0
+2025-06-22 23:09:53,997 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info3.parquet
+2025-06-22 23:09:53,997 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info3.parquet
+2025-06-22 23:09:54,089 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:54,089 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:54,089 INFO: 当前循环次数：4
+2025-06-22 23:09:54,089 INFO: 当前循环次数：4
+2025-06-22 23:09:54,091 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,091 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,121 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /user_info?count=4 HTTP/1.1" 200 -
+2025-06-22 23:09:54,121 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /user_info?count=4 HTTP/1.1" 200 -
+2025-06-22 23:09:54,123 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=4 HTTP/1.1" 200 449514
+2025-06-22 23:09:54,123 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=4 HTTP/1.1" 200 449514
+2025-06-22 23:09:54,142 INFO: 数据基本信息：
+2025-06-22 23:09:54,142 INFO: 数据基本信息：
+2025-06-22 23:09:54,150 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:54,150 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:54,152 INFO: 数值列统计信息：
+2025-06-22 23:09:54,152 INFO: 数值列统计信息：
+2025-06-22 23:09:54,166 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.0265	11000.5	547.9435	49.3285	5501.6645
+std	5.430888051001536	577.4945887192364	261.92276356740626	29.705922114190077	2634.7761805702967
+min	7.0	10001.0	100.0	0.0	1007.0
+25%	12.0	10500.75	316.5	22.0	3217.5
+50%	16.0	11000.5	542.0	50.0	5434.5
+75%	21.0	11500.25	776.0	76.0	7849.0
+max	25.0	12000.0	1000.0	100.0	10000.0
+2025-06-22 23:09:54,166 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.0265	11000.5	547.9435	49.3285	5501.6645
+std	5.430888051001536	577.4945887192364	261.92276356740626	29.705922114190077	2634.7761805702967
+min	7.0	10001.0	100.0	0.0	1007.0
+25%	12.0	10500.75	316.5	22.0	3217.5
+50%	16.0	11000.5	542.0	50.0	5434.5
+75%	21.0	11500.25	776.0	76.0	7849.0
+max	25.0	12000.0	1000.0	100.0	10000.0
+2025-06-22 23:09:54,179 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info4.parquet
+2025-06-22 23:09:54,179 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info4.parquet
+2025-06-22 23:09:54,307 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:54,307 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:54,309 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,309 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,330 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /sign_info?count=4 HTTP/1.1" 200 -
+2025-06-22 23:09:54,330 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /sign_info?count=4 HTTP/1.1" 200 -
+2025-06-22 23:09:54,331 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=4 HTTP/1.1" 200 168002
+2025-06-22 23:09:54,331 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=4 HTTP/1.1" 200 168002
+2025-06-22 23:09:54,338 INFO: 数据基本信息：
+2025-06-22 23:09:54,338 INFO: 数据基本信息：
+2025-06-22 23:09:54,347 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:54,347 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:54,348 INFO: 数值列统计信息：
+2025-06-22 23:09:54,348 INFO: 数值列统计信息：
+2025-06-22 23:09:54,353 INFO: id
+count	2000.0
+mean	11000.5
+std	577.4945887192364
+min	10001.0
+25%	10500.75
+50%	11000.5
+75%	11500.25
+max	12000.0
+2025-06-22 23:09:54,353 INFO: id
+count	2000.0
+mean	11000.5
+std	577.4945887192364
+min	10001.0
+25%	10500.75
+50%	11000.5
+75%	11500.25
+max	12000.0
+2025-06-22 23:09:54,361 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info4.parquet
+2025-06-22 23:09:54,361 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info4.parquet
+2025-06-22 23:09:54,439 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:54,439 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:54,440 INFO: 当前循环次数：5
+2025-06-22 23:09:54,440 INFO: 当前循环次数：5
+2025-06-22 23:09:54,443 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,443 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,478 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /user_info?count=5 HTTP/1.1" 200 -
+2025-06-22 23:09:54,478 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /user_info?count=5 HTTP/1.1" 200 -
+2025-06-22 23:09:54,479 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=5 HTTP/1.1" 200 449492
+2025-06-22 23:09:54,479 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=5 HTTP/1.1" 200 449492
+2025-06-22 23:09:54,495 INFO: 数据基本信息：
+2025-06-22 23:09:54,495 INFO: 数据基本信息：
+2025-06-22 23:09:54,504 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:54,504 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:54,506 INFO: 数值列统计信息：
+2025-06-22 23:09:54,506 INFO: 数值列统计信息：
+2025-06-22 23:09:54,519 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.849	13000.5	546.6385	51.051	5457.7815
+std	5.494023220334329	577.4945887192364	257.76634877933833	29.216043325436747	2606.947028453461
+min	7.0	12001.0	100.0	0.0	1000.0
+25%	11.0	12500.75	328.0	26.0	3260.5
+50%	16.0	13000.5	537.0	52.0	5424.5
+75%	21.0	13500.25	773.25	77.0	7661.0
+max	25.0	14000.0	1000.0	100.0	10000.0
+2025-06-22 23:09:54,519 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.849	13000.5	546.6385	51.051	5457.7815
+std	5.494023220334329	577.4945887192364	257.76634877933833	29.216043325436747	2606.947028453461
+min	7.0	12001.0	100.0	0.0	1000.0
+25%	11.0	12500.75	328.0	26.0	3260.5
+50%	16.0	13000.5	537.0	52.0	5424.5
+75%	21.0	13500.25	773.25	77.0	7661.0
+max	25.0	14000.0	1000.0	100.0	10000.0
+2025-06-22 23:09:54,532 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info5.parquet
+2025-06-22 23:09:54,532 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info5.parquet
+2025-06-22 23:09:54,656 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:54,656 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:54,658 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,658 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,676 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /sign_info?count=5 HTTP/1.1" 200 -
+2025-06-22 23:09:54,676 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /sign_info?count=5 HTTP/1.1" 200 -
+2025-06-22 23:09:54,677 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=5 HTTP/1.1" 200 168002
+2025-06-22 23:09:54,677 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=5 HTTP/1.1" 200 168002
+2025-06-22 23:09:54,683 INFO: 数据基本信息：
+2025-06-22 23:09:54,683 INFO: 数据基本信息：
+2025-06-22 23:09:54,692 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:54,692 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:54,694 INFO: 数值列统计信息：
+2025-06-22 23:09:54,694 INFO: 数值列统计信息：
+2025-06-22 23:09:54,700 INFO: id
+count	2000.0
+mean	13000.5
+std	577.4945887192364
+min	12001.0
+25%	12500.75
+50%	13000.5
+75%	13500.25
+max	14000.0
+2025-06-22 23:09:54,700 INFO: id
+count	2000.0
+mean	13000.5
+std	577.4945887192364
+min	12001.0
+25%	12500.75
+50%	13000.5
+75%	13500.25
+max	14000.0
+2025-06-22 23:09:54,707 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info5.parquet
+2025-06-22 23:09:54,707 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info5.parquet
+2025-06-22 23:09:54,813 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:54,813 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:54,814 INFO: 当前循环次数：6
+2025-06-22 23:09:54,814 INFO: 当前循环次数：6
+2025-06-22 23:09:54,816 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,816 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:54,848 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /user_info?count=6 HTTP/1.1" 200 -
+2025-06-22 23:09:54,848 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:54] "GET /user_info?count=6 HTTP/1.1" 200 -
+2025-06-22 23:09:54,849 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=6 HTTP/1.1" 200 449516
+2025-06-22 23:09:54,849 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=6 HTTP/1.1" 200 449516
+2025-06-22 23:09:54,865 INFO: 数据基本信息：
+2025-06-22 23:09:54,865 INFO: 数据基本信息：
+2025-06-22 23:09:54,873 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:54,873 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:54,875 INFO: 数值列统计信息：
+2025-06-22 23:09:54,875 INFO: 数值列统计信息：
+2025-06-22 23:09:54,888 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.052	15000.5	554.7685	50.183	5434.1385
+std	5.431394482360079	577.4945887192364	260.9147450027114	29.797591500482294	2630.257284945763
+min	7.0	14001.0	100.0	0.0	1000.0
+25%	11.0	14500.75	320.0	24.0	3100.75
+50%	16.0	15000.5	563.5	50.0	5359.0
+75%	21.0	15500.25	783.0	76.0	7771.75
+max	25.0	16000.0	1000.0	100.0	10000.0
+2025-06-22 23:09:54,888 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.052	15000.5	554.7685	50.183	5434.1385
+std	5.431394482360079	577.4945887192364	260.9147450027114	29.797591500482294	2630.257284945763
+min	7.0	14001.0	100.0	0.0	1000.0
+25%	11.0	14500.75	320.0	24.0	3100.75
+50%	16.0	15000.5	563.5	50.0	5359.0
+75%	21.0	15500.25	783.0	76.0	7771.75
+max	25.0	16000.0	1000.0	100.0	10000.0
+2025-06-22 23:09:54,900 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info6.parquet
+2025-06-22 23:09:54,900 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info6.parquet
+2025-06-22 23:09:55,025 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:55,025 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:55,028 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,028 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,050 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /sign_info?count=6 HTTP/1.1" 200 -
+2025-06-22 23:09:55,050 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /sign_info?count=6 HTTP/1.1" 200 -
+2025-06-22 23:09:55,051 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=6 HTTP/1.1" 200 168002
+2025-06-22 23:09:55,051 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=6 HTTP/1.1" 200 168002
+2025-06-22 23:09:55,057 INFO: 数据基本信息：
+2025-06-22 23:09:55,057 INFO: 数据基本信息：
+2025-06-22 23:09:55,066 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:55,066 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:55,068 INFO: 数值列统计信息：
+2025-06-22 23:09:55,068 INFO: 数值列统计信息：
+2025-06-22 23:09:55,073 INFO: id
+count	2000.0
+mean	15000.5
+std	577.4945887192364
+min	14001.0
+25%	14500.75
+50%	15000.5
+75%	15500.25
+max	16000.0
+2025-06-22 23:09:55,073 INFO: id
+count	2000.0
+mean	15000.5
+std	577.4945887192364
+min	14001.0
+25%	14500.75
+50%	15000.5
+75%	15500.25
+max	16000.0
+2025-06-22 23:09:55,081 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info6.parquet
+2025-06-22 23:09:55,081 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info6.parquet
+2025-06-22 23:09:55,153 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:55,153 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:55,154 INFO: 当前循环次数：7
+2025-06-22 23:09:55,154 INFO: 当前循环次数：7
+2025-06-22 23:09:55,156 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,156 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,186 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /user_info?count=7 HTTP/1.1" 200 -
+2025-06-22 23:09:55,186 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /user_info?count=7 HTTP/1.1" 200 -
+2025-06-22 23:09:55,187 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=7 HTTP/1.1" 200 449525
+2025-06-22 23:09:55,187 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=7 HTTP/1.1" 200 449525
+2025-06-22 23:09:55,202 INFO: 数据基本信息：
+2025-06-22 23:09:55,202 INFO: 数据基本信息：
+2025-06-22 23:09:55,214 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:55,214 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:55,217 INFO: 数值列统计信息：
+2025-06-22 23:09:55,217 INFO: 数值列统计信息：
+2025-06-22 23:09:55,230 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.098	17000.5	557.3485	50.193	5545.4695
+std	5.549576100698928	577.4945887192364	258.06160493905685	28.98604571898712	2576.0878446515426
+min	7.0	16001.0	100.0	0.0	1011.0
+25%	11.0	16500.75	345.0	25.0	3393.75
+50%	16.0	17000.5	554.5	51.0	5591.0
+75%	21.0	17500.25	777.25	75.0	7728.25
+max	25.0	18000.0	1000.0	100.0	9996.0
+2025-06-22 23:09:55,230 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	16.098	17000.5	557.3485	50.193	5545.4695
+std	5.549576100698928	577.4945887192364	258.06160493905685	28.98604571898712	2576.0878446515426
+min	7.0	16001.0	100.0	0.0	1011.0
+25%	11.0	16500.75	345.0	25.0	3393.75
+50%	16.0	17000.5	554.5	51.0	5591.0
+75%	21.0	17500.25	777.25	75.0	7728.25
+max	25.0	18000.0	1000.0	100.0	9996.0
+2025-06-22 23:09:55,243 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info7.parquet
+2025-06-22 23:09:55,243 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info7.parquet
+2025-06-22 23:09:55,368 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:55,368 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:55,370 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,370 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,388 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /sign_info?count=7 HTTP/1.1" 200 -
+2025-06-22 23:09:55,388 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /sign_info?count=7 HTTP/1.1" 200 -
+2025-06-22 23:09:55,390 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=7 HTTP/1.1" 200 168002
+2025-06-22 23:09:55,390 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=7 HTTP/1.1" 200 168002
+2025-06-22 23:09:55,398 INFO: 数据基本信息：
+2025-06-22 23:09:55,398 INFO: 数据基本信息：
+2025-06-22 23:09:55,406 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:55,406 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:55,409 INFO: 数值列统计信息：
+2025-06-22 23:09:55,409 INFO: 数值列统计信息：
+2025-06-22 23:09:55,414 INFO: id
+count	2000.0
+mean	17000.5
+std	577.4945887192364
+min	16001.0
+25%	16500.75
+50%	17000.5
+75%	17500.25
+max	18000.0
+2025-06-22 23:09:55,414 INFO: id
+count	2000.0
+mean	17000.5
+std	577.4945887192364
+min	16001.0
+25%	16500.75
+50%	17000.5
+75%	17500.25
+max	18000.0
+2025-06-22 23:09:55,420 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info7.parquet
+2025-06-22 23:09:55,420 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info7.parquet
+2025-06-22 23:09:55,490 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:55,490 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:55,490 INFO: 当前循环次数：8
+2025-06-22 23:09:55,490 INFO: 当前循环次数：8
+2025-06-22 23:09:55,492 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,492 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,524 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /user_info?count=8 HTTP/1.1" 200 -
+2025-06-22 23:09:55,524 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /user_info?count=8 HTTP/1.1" 200 -
+2025-06-22 23:09:55,525 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=8 HTTP/1.1" 200 449534
+2025-06-22 23:09:55,525 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=8 HTTP/1.1" 200 449534
+2025-06-22 23:09:55,541 INFO: 数据基本信息：
+2025-06-22 23:09:55,541 INFO: 数据基本信息：
+2025-06-22 23:09:55,551 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:55,551 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:55,553 INFO: 数值列统计信息：
+2025-06-22 23:09:55,553 INFO: 数值列统计信息：
+2025-06-22 23:09:55,566 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.9635	19000.5	551.4115	50.0445	5533.6705
+std	5.472032466977862	577.4945887192364	260.4748773847956	28.825908246629826	2569.441179890719
+min	7.0	18001.0	100.0	0.0	1000.0
+25%	11.0	18500.75	320.75	25.0	3355.25
+50%	16.0	19000.5	550.0	50.0	5621.0
+75%	21.0	19500.25	778.0	75.0	7759.25
+max	25.0	20000.0	1000.0	100.0	9998.0
+2025-06-22 23:09:55,566 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.9635	19000.5	551.4115	50.0445	5533.6705
+std	5.472032466977862	577.4945887192364	260.4748773847956	28.825908246629826	2569.441179890719
+min	7.0	18001.0	100.0	0.0	1000.0
+25%	11.0	18500.75	320.75	25.0	3355.25
+50%	16.0	19000.5	550.0	50.0	5621.0
+75%	21.0	19500.25	778.0	75.0	7759.25
+max	25.0	20000.0	1000.0	100.0	9998.0
+2025-06-22 23:09:55,578 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info8.parquet
+2025-06-22 23:09:55,578 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info8.parquet
+2025-06-22 23:09:55,726 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:55,726 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:55,729 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,729 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,750 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /sign_info?count=8 HTTP/1.1" 200 -
+2025-06-22 23:09:55,750 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /sign_info?count=8 HTTP/1.1" 200 -
+2025-06-22 23:09:55,752 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=8 HTTP/1.1" 200 168002
+2025-06-22 23:09:55,752 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=8 HTTP/1.1" 200 168002
+2025-06-22 23:09:55,758 INFO: 数据基本信息：
+2025-06-22 23:09:55,758 INFO: 数据基本信息：
+2025-06-22 23:09:55,766 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:55,766 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:55,768 INFO: 数值列统计信息：
+2025-06-22 23:09:55,768 INFO: 数值列统计信息：
+2025-06-22 23:09:55,773 INFO: id
+count	2000.0
+mean	19000.5
+std	577.4945887192364
+min	18001.0
+25%	18500.75
+50%	19000.5
+75%	19500.25
+max	20000.0
+2025-06-22 23:09:55,773 INFO: id
+count	2000.0
+mean	19000.5
+std	577.4945887192364
+min	18001.0
+25%	18500.75
+50%	19000.5
+75%	19500.25
+max	20000.0
+2025-06-22 23:09:55,784 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info8.parquet
+2025-06-22 23:09:55,784 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info8.parquet
+2025-06-22 23:09:55,875 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:55,875 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:55,875 INFO: 当前循环次数：9
+2025-06-22 23:09:55,875 INFO: 当前循环次数：9
+2025-06-22 23:09:55,877 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,877 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:55,907 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /user_info?count=9 HTTP/1.1" 200 -
+2025-06-22 23:09:55,907 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:55] "GET /user_info?count=9 HTTP/1.1" 200 -
+2025-06-22 23:09:55,908 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=9 HTTP/1.1" 200 449493
+2025-06-22 23:09:55,908 DEBUG: http://127.0.0.1:1233 "GET /user_info?count=9 HTTP/1.1" 200 449493
+2025-06-22 23:09:55,925 INFO: 数据基本信息：
+2025-06-22 23:09:55,925 INFO: 数据基本信息：
+2025-06-22 23:09:55,934 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:55,934 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype 
+---  ------                --------------  ----- 
+ 0   address               2000 non-null   object
+ 1   age                   2000 non-null   int64 
+ 2   city                  2000 non-null   object
+ 3   gender                2000 non-null   object
+ 4   id                    2000 non-null   int64 
+ 5   name                  2000 non-null   object
+ 6   numberOfHits          2000 non-null   int64 
+ 7   numberOfTransactions  2000 non-null   int64 
+ 8   numberOfVisits        2000 non-null   int64 
+ 9   time                  2000 non-null   object
+dtypes: int64(5), object(5)
+memory usage: 156.4+ KB
+2025-06-22 23:09:55,936 INFO: 数值列统计信息：
+2025-06-22 23:09:55,936 INFO: 数值列统计信息：
+2025-06-22 23:09:55,948 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.9765	21000.5	546.696	49.663	5454.78
+std	5.477494794576468	577.4945887192364	259.0925067375044	28.846169273247888	2570.5614648792903
+min	7.0	20001.0	100.0	0.0	1002.0
+25%	11.0	20500.75	326.75	25.0	3297.25
+50%	16.0	21000.5	543.5	49.0	5373.5
+75%	21.0	21500.25	776.0	74.0	7684.25
+max	25.0	22000.0	1000.0	100.0	9994.0
+2025-06-22 23:09:55,948 INFO: age	id	numberOfHits	numberOfTransactions	numberOfVisits
+count	2000.0	2000.0	2000.0	2000.0	2000.0
+mean	15.9765	21000.5	546.696	49.663	5454.78
+std	5.477494794576468	577.4945887192364	259.0925067375044	28.846169273247888	2570.5614648792903
+min	7.0	20001.0	100.0	0.0	1002.0
+25%	11.0	20500.75	326.75	25.0	3297.25
+50%	16.0	21000.5	543.5	49.0	5373.5
+75%	21.0	21500.25	776.0	74.0	7684.25
+max	25.0	22000.0	1000.0	100.0	9994.0
+2025-06-22 23:09:55,961 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info9.parquet
+2025-06-22 23:09:55,961 INFO: 数据已成功保存至 D:\windocu\desktop\test1\user_data_diruser_info9.parquet
+2025-06-22 23:09:56,083 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:56,083 INFO: 数据已成功写入表 user_info
+2025-06-22 23:09:56,085 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:56,085 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:56,105 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:56] "GET /sign_info?count=9 HTTP/1.1" 200 -
+2025-06-22 23:09:56,105 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:56] "GET /sign_info?count=9 HTTP/1.1" 200 -
+2025-06-22 23:09:56,106 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=9 HTTP/1.1" 200 168002
+2025-06-22 23:09:56,106 DEBUG: http://127.0.0.1:1233 "GET /sign_info?count=9 HTTP/1.1" 200 168002
+2025-06-22 23:09:56,113 INFO: 数据基本信息：
+2025-06-22 23:09:56,113 INFO: 数据基本信息：
+2025-06-22 23:09:56,124 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:56,124 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 3 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   id         2000 non-null   int64 
+ 1   sign_city  2000 non-null   object
+ 2   sign_time  2000 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 47.0+ KB
+2025-06-22 23:09:56,126 INFO: 数值列统计信息：
+2025-06-22 23:09:56,126 INFO: 数值列统计信息：
+2025-06-22 23:09:56,130 INFO: id
+count	2000.0
+mean	21000.5
+std	577.4945887192364
+min	20001.0
+25%	20500.75
+50%	21000.5
+75%	21500.25
+max	22000.0
+2025-06-22 23:09:56,130 INFO: id
+count	2000.0
+mean	21000.5
+std	577.4945887192364
+min	20001.0
+25%	20500.75
+50%	21000.5
+75%	21500.25
+max	22000.0
+2025-06-22 23:09:56,137 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info9.parquet
+2025-06-22 23:09:56,137 INFO: 数据已成功保存至 D:\windocu\desktop\test1\sign_data_dirsign_info9.parquet
+2025-06-22 23:09:56,208 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:56,208 INFO: 数据已成功写入表 sign_info
+2025-06-22 23:09:56,210 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:56,210 DEBUG: Starting new HTTP connection (1): 127.0.0.1:1233
+2025-06-22 23:09:56,212 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:56] "GET /area_info HTTP/1.1" 200 -
+2025-06-22 23:09:56,212 INFO: 127.0.0.1 - - [22/Jun/2025 23:09:56] "GET /area_info HTTP/1.1" 200 -
+2025-06-22 23:09:56,215 DEBUG: http://127.0.0.1:1233 "GET /area_info HTTP/1.1" 200 158
+2025-06-22 23:09:56,215 DEBUG: http://127.0.0.1:1233 "GET /area_info HTTP/1.1" 200 158
+2025-06-22 23:09:56,217 INFO: 数据基本信息：
+2025-06-22 23:09:56,217 INFO: 数据基本信息：
+2025-06-22 23:09:56,226 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4 entries, 0 to 3
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   city    4 non-null      object
+ 1   id      4 non-null      int64 
+ 2   num     4 non-null      int64 
+dtypes: int64(2), object(1)
+memory usage: 228.0+ bytes
+2025-06-22 23:09:56,226 INFO: <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4 entries, 0 to 3
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   city    4 non-null      object
+ 1   id      4 non-null      int64 
+ 2   num     4 non-null      int64 
+dtypes: int64(2), object(1)
+memory usage: 228.0+ bytes
+2025-06-22 23:09:56,228 INFO: 数值列统计信息：
+2025-06-22 23:09:56,228 INFO: 数值列统计信息：
+2025-06-22 23:09:56,237 INFO: id	num
+count	4.0	4.0
+mean	2.5	3.0
+std	1.2909944487358056	1.4142135623730951
+min	1.0	2.0
+25%	1.75	2.0
+50%	2.5	2.5
+75%	3.25	3.5
+max	4.0	5.0
+2025-06-22 23:09:56,237 INFO: id	num
+count	4.0	4.0
+mean	2.5	3.0
+std	1.2909944487358056	1.4142135623730951
+min	1.0	2.0
+25%	1.75	2.0
+50%	2.5	2.5
+75%	3.25	3.5
+max	4.0	5.0
+2025-06-22 23:09:56,243 INFO: 数据已成功保存至 D:\windocu\desktop\test1\area_data_dirarea_info9.parquet
+2025-06-22 23:09:56,243 INFO: 数据已成功保存至 D:\windocu\desktop\test1\area_data_dirarea_info9.parquet
+2025-06-22 23:09:56,331 INFO: 数据已成功写入表 area_info
+2025-06-22 23:09:56,331 INFO: 数据已成功写入表 area_info

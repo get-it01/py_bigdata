@@ -11,13 +11,15 @@ setup_logger()
 
 # 定义 Flask 接口的 URL
 # 默认获取100条数据, 输入url设定获取5k
-stu_api_url = 'http://127.0.0.1:1233/user_info?count=1'
+user_api_url = 'http://127.0.0.1:1233/user_info'
 api_url = 'http://127.0.0.1:1233/user_info'
 area_api_url = 'http://127.0.0.1:1233/area_info'
-sign_api_url = 'http://127.0.0.1:1233/sign_info?count=1'
-def analyze_api_data(api_url=api_url):
+sign_api_url = 'http://127.0.0.1:1233/sign_info'
+def analyze_api_data(api_url=api_url,num=1):
     try:
         # 发送 GET 请求到 Flask 接口
+        if api_url == user_api_url or api_url == sign_api_url:
+            api_url += '?count='+str(num)
         response = requests.get(api_url)
 
         json_data = response.json()
