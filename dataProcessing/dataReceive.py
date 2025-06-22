@@ -48,6 +48,7 @@ def analyze_api_data(api_url=api_url):
             if df.select_dtypes(include=['number']).shape[1] > 0:
                 print('数值列统计信息：')
                 print(df.select_dtypes(include=['number']).describe().to_csv(sep='\t', na_rep='nan'))
+                return df
             else:
                 print('数据集中没有数值列。')
         else:
